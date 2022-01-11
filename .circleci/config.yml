@@ -9,8 +9,8 @@ jobs:
           name: echo
           command: echo "Hello, world!!?"
       - run:
-          name: echo
-          command: echo "Hello, world!!?"
+          name: rubyversion
+          command: ruby -v
 workflows:
   test_workflow:
     jobs:
