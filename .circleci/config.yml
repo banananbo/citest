@@ -8,6 +8,7 @@ jobs:
       - run:
           name: echo
           command: echo "Hello, world!!?"
+          command: echo "Hello, world!!?"
 workflows:
   test_workflow:
     jobs:
